@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tab Menu with Jquery 3.3.1 - Accordian</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/fontawesome.css" />
+    </head>
+    <body>
+        <div class="container">
+            <ul id="accordion">
+                <li>
+                    <a href="#" class="active"><i class="fa fa-gift" aria-hidden="true"></i></a>
+                    <div class="box active">
+                        <h1>Gift</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa, dolores placeat alias, dolorem reiciendis eos voluptatibus error, accusamus voluptates modi corrupti. Fuga temporibus facere possimus omnis, incidunt odit eum cupiditate, cum, nostrum sint voluptates sapiente expedita reiciendis necessitatibus consequatur quisquam iusto ratione voluptatem. Omnis, vel. Officiis quia omnis facere!</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-glass" aria-hidden="true"></i></a>
+                    <div class="box">
+                        <h1>Glass</h1>
+                        <p>LCommodi dolor quod natus perferendis nisi, nostrum consequatur sapiente in ex fuga fugiat eos laudantium eum rerum. Ratione et commodi repellendus culpa magnam sapiente! Odio cum beatae error nam totam quod fuga amet sed nesciunt ut? Veniam numquam quo ullam, similique magnam dolorum molestiae quisquam!</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                    <div class="box">
+                        <h1>Globe</h1>
+                        <p>voluptatem exercitationem quibusdam ad dicta est ratione omnis numquam, quasi natus harum cum quod? Magni delectus inventore pariatur nesciunt error impedit accusantium voluptatem maiores, accusamus eligendi iure aut eum ducimus quo voluptate nostrum esse sapiente optio corporis sunt, porro molestias vitae. Quaerat, ratione possimus.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                    <div class="box">
+                        <h1>Graduation</h1>
+                        <p>Architecto sint nulla cumque deserunt suscipit obcaecati nobis ratione laboriosam, magni explicabo maxime corrupti sit voluptatem necessitatibus laudantium, saepe facere nostrum? Iste quo magnam ullam exercitationem. Non cumque, molestiae sequi vel tempora commodi optio! Corrupti deleniti cum, eligendi minima debitis suscipit perferendis temporibus exercitationem repudiandae ullam, quae laboriosam ipsum, sequi doloribus dolorem quo consequatur?</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-group" aria-hidden="true"></i></a>
+                    <div class="box">
+                        <h1>Group</h1>
+                        <p>Exercitationem molestias labore non magni dolor, quam incidunt mollitia distinctio excepturi, obcaecati explicabo magnam eos in cum voluptatem facilis, qui aspernatur dolore consectetur rerum nisi minima! Voluptatem sapiente reiciendis enim deleniti nulla? Quasi iste nihil dolorem deleniti. Distinctio illo facilis amet repellat ipsa consequatur quod cumque porro impedit ipsam pariatur, perferendis velit dicta neque dolorum quidem soluta a sapiente. Nisi voluptates iusto veritatis architecto. Maxime numquam non illo tenetur!</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).on('click', '#accordion>li>a',function () {
+                $(this).siblings('.box').addClass('active');
+                $(this).closest('li').siblings('li').find('.box').removeClass('active');
+            });
+                $('#accordion').on('click', 'li>a', function () {
+                    $('#accordion li a.active').removeClass('active');
+                    $(this).addClass('active');
+                });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>::after Bullet</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!link rel="stylesheet" href="css/main.css" />
+    </head>
+    <style>
+           
+            
+    p::after{
+        content:'new';
+        display: inline-block;
+        background: #f00;
+        font-size: 0.3em;
+        vertical-align: middle;
+        padding: 0 4px 3px;
+        border-radius: 5px;
+        margin-left:3px;
+        font-weight: bold;
+        color: #fff;
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink{
+        0%{
+            color: #fff;
+        }
+        100%{
+            color:#000;
+        }
+
+    }
+    </style>
+    <body>
+        <p>New Items</p>
+    </body>
+</html>

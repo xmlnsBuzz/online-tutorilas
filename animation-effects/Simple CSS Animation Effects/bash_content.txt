@@ -1,0 +1,80 @@
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips/Simple CSS Animation Effects (master)
+$ touch index.html
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips/Simple CSS Animation Effects (master)
+$ mkdir scss
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips/Simple CSS Animation Effects (master)
+$ cd scss
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips/Simple CSS Animation Effects/scss (master)
+$ main.scss
+bash: main.scss: command not found
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips/Simple CSS Animation Effects/scss (master)
+$ clear
+
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips/Simple CSS Animation Effects/scss (master)
+$ cd ..
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips/Simple CSS Animation Effects (master)
+$ cd ..
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips (master)
+$ git st
+On branch master
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Simple CSS Animation Effects/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips (master)
+$ git add -A
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips (master)
+$ git commit -m "Simple CSS Animation Effects"
+[master 4e20ed9] Simple CSS Animation Effects
+ 2 files changed, 148 insertions(+)
+ create mode 100644 Simple CSS Animation Effects/css/main.css
+ create mode 100644 Simple CSS Animation Effects/index.html
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips (master)
+$ git push origin master
+warning: redirecting to https://gitlab.com/xmlnsbuzz/CSS/css_quick_tutorials_tips.git/
+To https://gitlab.com/xmlnsbuzz/CSS/css_quick_tutorials_tips
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://gitlab.com/xmlnsbuzz/CSS/css_quick_tutorials_tips'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips (master)
+$ git pull origin master
+warning: redirecting to https://gitlab.com/xmlnsbuzz/CSS/css_quick_tutorials_tips.git/
+From https://gitlab.com/xmlnsbuzz/CSS/css_quick_tutorials_tips
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ README.md | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips (master)
+$ git push origin master
+warning: redirecting to https://gitlab.com/xmlnsbuzz/CSS/css_quick_tutorials_tips.git/
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.47 KiB | 1.47 MiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+To https://gitlab.com/xmlnsbuzz/CSS/css_quick_tutorials_tips
+   f55f59d..50f94ea  master -> master
+
+Administrator@WIN-681T3F2S29U MINGW64 /e/AllMyWeb/WebDev/3Git_Major_Sites/gitLab/xmlnsbuzz/CSS/online_tutorial/css_quick_tutorials_tips (master)
+$
